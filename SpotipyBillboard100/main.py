@@ -5,14 +5,9 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import pprint
 
-os.environ["SPOTIPY_CLIENT_ID"] = "e4a32ee12ba94cfeb1f9b208c0dd166a"
-os.environ["SPOTIPY_CLIENT_SECRET"] = "c3f5ba069232471b94dfc21429fc58e6"
-os.environ["SPOTIPY_REDIRECT_URI"] = "http://example.com"
 
-
-
-SPOTIPY_CLIENT_ID = "e4a32ee12ba94cfeb1f9b208c0dd166a"
-SPOTIPY_CLIENT_SECRET = "c3f5ba069232471b94dfc21429fc58e6"
+SPOTIPY_CLIENT_ID = "xxx"
+SPOTIPY_CLIENT_SECRET = "xxx"
  
 date = input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD: ")
 URL = f"https://www.billboard.com/charts/hot-100/{date}/"
